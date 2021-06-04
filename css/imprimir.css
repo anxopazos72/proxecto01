@@ -1,0 +1,17 @@
+@import url("css/reset.css");
+header, nav, aside, img{
+	display:none !important;
+}
+body, main {
+float: none !important;
+width: auto !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+body, a{
+	font:medium Georgia, Verdana, Arial;
+	color:black;
+}
+a:after {
+content: " [" attr(href) "] ";
+}

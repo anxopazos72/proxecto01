@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Anxo Pazos">
+	<title>Asociación de comerciantes de Uroso</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/imprimir.css" media="print"> 
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+</head>
+<body>
+	<div id="contedor">
+		<header><!--Comienzo de la cabecera -->
+			<a href="index.html"><img id="logo" src="imaxes/logo.png" alt="logotipo" title="Asociación de comerciantes de Uroso" width="150"/></a>
+			<section id="titulo">
+			<h1>Asociación de comerciantes de Uroso</h1>
+			<h3>Tu tienda, nuestra casa</h3>
+			</section>
+
+			<section id="iconos">
+			<a href="http://www.facebook.com/asociacionuroso"><img src="imaxes/facebook.gif" title="Facebook"/></a> 
+			<a href="http://www.twitter.com/asociacionuroso"><img src="imaxes/twitter.png" title="Twitter"/></a> 
+			<a href="http://www.instagram.com/asociacionuroso"><img src="imaxes/instagram.png" title="Instagram"/></a><a href="mailto:info@asociacionuroso.com"> <img src="imaxes/email.gif" title="Escríbenos" /></a>
+    		</section>
+
+		</header><!--Final de la cabecera -->
+
+		<nav><!--Comienzo del menú de navegación -->
+			<ul id="menu">
+				<a href="directiva.html"><li>Junta Directiva</li></a>
+				<a href="historia.html"><li>Historia de la Asociación</li></a>
+				<a href="asociados.html"><li>Nuestros asociados</li></a>
+			</ul>
+		</nav><!--Final del menú de navegación -->
+
+		<main><!--Comienzo de la sección principal  -->
+			<aside id="esquerda" class="col-m-3 col-2"><!--Comienzo de la barra lateral izquierda -->
+				<div id="menu2">
+					<ul>
+						<a href="index.html"><li>Inicio</li></a>
+						<a href="empleo.html"><li>Empleo</li></a>
+						<a href="formacion.html"><li>Formación</li></a>
+						<a href="actividades.html"><li>Actividades</li></a>
+						<a href="uroso.html"><li>Uroso</li></a>
+						<a href="contacto.html"><li class="actual">Contacto</li></a>
+					</ul>
+				</div>
+				<div id="enlaces">
+					<h3>Enlaces externos</h3>
+					<p>
+						<a href="http://www.ceg.es" target="_blank">Confederación de Empresarios de Galicia</a><br>
+					    <a href="http://www.ascega.es/" target="_blank">ASCEGA - Emprededores de Galicia</a><br>
+					    <a href="http://www.ajegalicia.com">Federación Galega de Xoves Empresarios</a><br>
+					    <a href="http://www.cep.es" target="_blank">Confederación de Empresarios de Pontevedra</a><br>
+					    <a href="https://www.cec.es" target="_blank">Confederación de Empresarios de Coruña</a><br>
+					    <a href="http://www.ceo.es/asociaciones/" target="_blank">Confederación de Empresarios de Ourense</a><br>
+					    <a href="http://www.cel.es/es/" target="_blank">Confederación de Empresarios de Lugo</a><br>
+					    <a href="http://www.apegalicia.es" target="_blank">Asociación de pequenas empresas de Galicia</a><br>
+					  </p>
+				</div>
+				
+			</aside><!--Final de la barra lateral izquierda -->
+
+			<section id="contido" class="col-m-9 col-8"><!--Comienzo de la sección central -->
+				<article>
+					<h1>Formulario de contacto</h1>
+					<div class="imagen01"><img  src="imaxes/contacto.jpg" alt="Formulario de contacto" /></div>
+					<form id="formulario" action="#" method="post">
+						<p><label for="nombre">Nombre*:</label>
+						<input type="text" id="nombre" name="nombre" size="30" autofocus required autocomplete="off"></p>
+						<p><label for="apellido">Apellidos*:</label>
+						<input type="text" id="apellido" name="apellido" size="30" required autocomplete="off"></p>
+						<p><label for="email">Correo electrónico*:</label>
+						<input type="email" id="email" name="email" size="30" required autocomplete="off"></p>
+						<p><label for="telefono">Teléfono*:</label>
+						<input type="tel" id="telefono" name="telefono" size="28" required autocomplete="off"></p>
+						<p><label for="url">Página web:</label>
+						<input type="url" name="url" id="url" name="url" size="30" value="http://"></p><br>
+						<p>¿Cómo nos has encontrado?<br>
+						<input type="radio" name="encontrar" value="Buscador"> En Internet con un buscador<br>
+						<input type="radio" name="encontrar" value="Similares"> En páginas web similares<br>
+		  				<input type="radio" name="encontrar" value="Amigo"> A través de un amigo/conocido <br>
+						<input type="radio" name="encontrar" value="Car"> Otros </p>
+		  				<p>Mensaje:<br>
+						<textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea></p>
+						<input type="submit" value="Enviar"><input type="reset" value="Reset">
+					</form>
+					
+				</article>
+
+			
+			</section><!--Final de la sección central -->
+			<aside id="dereita" class="col-m-12 col-2"><!--Comienzo de la barra lateral derecha -->
+
+				<h3>Noticias</h3>
+
+				<h4 class="titulo_noticias">Entrevista</h4>
+				<date class="data">8 de abril de 2017</date>
+				<img src="imaxes/entrevista.jpg" alt="Entrevista">
+				<p class="p_lateral">Emprender, fracasar y volver a empezar. Dicho así, con algo de financiación y mucho coraje bastaría para reincidir. Pero no es tan fácil.</p>
+				<a href="http://www.ascega.es/29-articulos-externos/605-entrevista-ascega-en-la-voz-de-galicia.html" target="_blank">Más...</a>
+
+				<h4 class="titulo_noticias">Confianza empresarial</h4>
+				<date class="data">17 de mayo de 2017</date>
+				<img src="imaxes/confianza.jpg" alt="Confianza empresarial">
+				<p class="p_lateral">La Encuesta Mensual de Opinión Empresarial genera indicadores que se basan en la opinión de los empresarios: Indicador Agregado de Tendencia e Indicador de Confianza Empresarial, que permiten un conocimiento amplio de los sectores económicos.</p>
+				<a href="http://www.inegi.org.mx/est/contenidos/proyectos/encuestas/establecimientos/otras/emoe/default.aspx" target="_blank">Más...</a>
+
+				<h4 class="titulo_noticias">Noticias locales</h4>
+				<date class="data">17 de septiembre de 2017</date>
+				<img src="imaxes/noticias.png" alt="Noticias locales">
+				<p class="p_lateral">El juzgado de primera instancia de Uroso ha citado a declarar hoy como investigado al alcalde de la localidad. En el año 2014 se tomó el acuerdo que motivó la denuncia de un particular por el pago de una factura.</p>
+				<a href="http://www.lavozdegalicia.es/noticia/santiago/oroso/2016/04/06/juzgado-ordes-investiga-alcalde-oroso-4-ediles-2014-posible-prevaricacion/0003_201604S6C6993.htm" target="_blank">Más...</a>
+
+			</aside><!--Final de la barra lateral derecha -->
+		</main><!--Final de la sección principal -->
+
+		<footer><!--Comienzo del pie -->
+			&copy; Asociación de comerciantes de Uroso - <strong>2017</strong>
+			<p id="direccion"><strong>Dirección:</strong></p>
+			<p>Avda 13 de mayo, 56<br>
+			15214 Uroso</p>
+			<p id="telefono"><strong>Teléfono:</strong> 981 123 456</p>
+			<div id="mapa">
+				<h2>¿Dónde estamos?</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5838.9891538855045!2d-8.443625733247504!3d42.96785432814186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbcc558f9155f70!2sConcello+de+Oroso!5e0!3m2!1ses!2shu!4v1491138816395" allowfullscreen></iframe>
+			</div>
+		</footer><!--Final del pie -->
+	</div>
+</body>
+</html>
